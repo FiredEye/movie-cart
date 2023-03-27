@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #cbc;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+.input {
+  padding: 10px;
+  font-size: 18px;
+  border: 0px solid black;
+  width: 70%;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+.button {
+  background-color: rgb(219, 55, 5);
+  color: white;
+  font-weight: 500;
+  border: 0px solid black;
+  padding: 15px;
+}
+.button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.root {
+  color: #777;
+  position: relative;
+  width: 140px;
+  height: 240px;
+}
+.fImg {
+  width: 100%;
+}
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.delete {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+
+  background-color: transparent;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.37) 0%, rgba(255, 255, 255, 0) 100%);
+  opacity: 0;
+}
+.delete:hover {
+  opacity: 1;
+}
+.trashImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.trashImg:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.root {
+  color: white;
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: #1a171e;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.logo {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.logoImg {
+  width: 50px;
+  height: 50px;
+}
+.logoText {
+  color: rgb(219, 55, 5);
+}
+.title {
+  color: #777;
+}
+.hr {
+  height: 0px;
+  border: 0.5px solid #d0cccc;
+  width: 100%;
+}
+.list {
+  padding: 1px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.listItem:hover {
+  cursor: pointer;
+}
